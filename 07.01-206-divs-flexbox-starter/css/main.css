@@ -108,18 +108,27 @@ body {
   height: 100%;
 }
 
-.wrapper {
+.flex-container {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
 }
 
-.div-1, .div-2, .div-3 {
+.flex-items {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
   background-color: #f16059;
   height: 300px;
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
 }
 
 
